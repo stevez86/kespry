@@ -1,0 +1,17 @@
+.overlay-container {
+    transition: width 50ms;
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+}
+
+.box {
+    margin: 1em;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 1em;
+}
+
+label {
+    margin: 1em;
+}
